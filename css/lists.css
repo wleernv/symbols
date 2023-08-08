@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+body{
+	background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/400w/canva-rainbow-gradient-pink-and-purple-virtual-background-LrNk7fAXxw8.jpg);
+background-size: cover;
+}
+p{
+	font-size: 50px;
+	color: #005fab;
+	text-align: center;
+	font-family: 'Rubik Marker Hatch', cursive;
+	text-shadow: 2px -2px white, 4px -4px hotpink;
+}
+ul,ol{
+	font-size: 24px;
+	color:#404040;
+	margin-left: 100px;
+}
+.heart li::marker{
+    color: deeppink;
+    font-size: 1.5em;
+}
+
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 🐇 🐚 🥥 🥐 🍙 🍥 🍰 🍵 🥢 ⛅ 🤍;
+  suffix: " ";
+}
+
+ul.ld {
+  list-style: circled-digits;
+}

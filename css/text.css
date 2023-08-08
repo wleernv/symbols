@@ -1,0 +1,30 @@
+h1{
+	font-weight: 400;
+font-family: 'Stalinist One', cursive;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 5px;
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	line-height: 24px;
+	margin: 0;
+}
+h2{
+	text-transform: capitalize;
+}
+.Crimea{
+	width: 300px;
+	float: right;
+	margin-left: 20px;
+}
+.oldmap{
+	width: 340px;
+	border:solid 2px grey;
+	float: right;
+}
+.oldmap figcaption{
+	background-color: #000;
+	color: #fff;
+}

@@ -1,0 +1,66 @@
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSihuWWlDic19feQ3mtByGW-9NCBtXXcBeUSQ&usqp=CAU);
+	background-size: cover;
+}
+p{
+	font-size: 50pt;
+}
+.p1{
+	font-size: 50pt;
+	background: repeating-linear-gradient(45deg, pink, hotpink);
+	text-align: center;
+	color: #123456;
+}
+.p2{
+	font-family: sans-serif;
+}
+.p3{
+	font-family: cursive;
+	font-weight: 700;
+}
+.p4{
+	 font-family: "Lucida Console", Courier, monospace;
+	 font-style: italic;
+}
+.p5{
+    font-family: 'Pattaya', sans-serif;
+}
+.p6{
+    font-family: 'Rubik Beastly', cursive;
+     text-emphasis: triangle #d55;
+}
+.p7{
+	font-family: 'Rubik Moonrocks', cursive;
+	text-emphasis: '#' red;
+}
+.p8{
+	font-family: 'Yeseva One', cursive;
+	text-decoration-color: green;
+	text-emphasis: filled double-circle;
+}
+.p9{
+	font-family: 'Dancing Script', cursive;
+	text-emphasis: 'x' hotpink;
+}
+.p2{
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-style: dotted;
+	text-decoration-color: darkred;
+}
+.p01{
+	text-decoration-line:underline overline;
+	text-decoration-color: hotpink;
+}
+.p02{
+	text-decoration: overline;
+	text-decoration-color: blue;
+}
+.p11{
+	text-shadow: 2px -2px red, 4px -4px blue;
+}
+.letter{
+	font-size: 1.05;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: white;
+}
